@@ -1,0 +1,23 @@
+# BDH Narrative Consistency Classifier
+# Requirements
+
+# Core ML
+torch>=2.0.0
+numpy>=1.24.0
+
+# Tokenization (optional - falls back to byte-level if not available)
+transformers>=4.30.0
+
+# Data streaming
+# Note: Pathway requires specific installation, see: https://github.com/pathwaycom/pathway
+# pip install pathway
+
+# LLM Integration (optional)
+langgraph>=0.0.20
+google-generativeai>=0.3.0
+
+# Testing
+pytest>=7.0.0
+
+# Utilities
+tqdm>=4.65.0
