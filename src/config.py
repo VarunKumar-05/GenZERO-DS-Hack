@@ -49,7 +49,7 @@ class PathwayConfig:
 class GeminiConfig:
     """LangGraph + Gemini settings"""
     model_name: str = "gemini-2.0-flash"  # Gemini 2.0 Flash (latest fast model)
-    api_key: str = "AIzaSyB1tdfT7e-nbdHiwCVoQHTGXz4OS_WaNl0"  # User provided API key
+    api_key: str = "" # User provided API key
     max_output_tokens: int = 1024
     temperature: float = 0.3
     top_p: float = 0.9
